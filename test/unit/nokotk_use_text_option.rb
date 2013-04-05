@@ -1,10 +1,10 @@
 require 'rubygems'
 require 'test/unit'
 require File.expand_path(File.dirname(__FILE__) + "/../../lib/nokogiri/toolkit")
-
 require 'open-uri'
+
 #
-# Testing the connection to https://www.mediawiki.org/wiki/API:Main_page
+# Test use of the text merge option with: https://en.wikipedia.org/wiki/Ruby_on_Rails
 #
 
 class NokotkUseTextOption < Test::Unit::TestCase

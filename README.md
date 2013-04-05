@@ -26,7 +26,7 @@ Or install it yourself as (RubyGems):
 
 ### TextMerge (merge text with optional separator)
 
-ruby```
+```ruby
 # open a HTML with uri open
 doc = Nokogiri::HTML(open("https://en.wikipedia.org/wiki/Ruby_on_Rails"))
 # get the bodyContent (main wiki content)
